@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Audio" representedClassName=".Audio" syncable="YES">
+        <attribute name="voiceRecording" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <relationship name="parkVisit" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ParkVisit" inverseName="audio" inverseEntity="ParkVisit"/>
+    </entity>
+    <entity name="ParkVisit" representedClassName=".ParkVisit" syncable="YES">
+        <attribute name="dateVisited" optional="YES" attributeType="String"/>
+        <attribute name="fullName" optional="YES" attributeType="String"/>
+        <attribute name="rating" optional="YES" attributeType="String"/>
+        <attribute name="speechToTextNotes" optional="YES" attributeType="String"/>
+        <attribute name="states" optional="YES" attributeType="String"/>
+        <relationship name="audio" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Audio" inverseName="parkVisit" inverseEntity="Audio"/>
+        <relationship name="photo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Photo" inverseName="parkVisit" inverseEntity="Photo"/>
+    </entity>
+    <entity name="Photo" representedClassName=".Photo" syncable="YES">
+        <attribute name="dateTime" optional="YES" attributeType="String"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="nationalParkPhoto" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <relationship name="parkVisit" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ParkVisit" inverseName="photo" inverseEntity="ParkVisit"/>
+    </entity>
+    <elements>
+        <element name="Audio" positionX="14.33203125" positionY="-238.21484375" width="128" height="73"/>
+        <element name="ParkVisit" positionX="-349.48046875" positionY="-192.23828125" width="128" height="148"/>
+        <element name="Photo" positionX="-36.50390625" positionY="-53.2890625" width="128" height="118"/>
+    </elements>
+</model>

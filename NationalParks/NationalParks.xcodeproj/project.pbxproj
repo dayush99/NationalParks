@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE70C4FD244D168C00710906 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C4FC244D168C00710906 /* AppDelegate.swift */; };
+		AE70C4FF244D168C00710906 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C4FE244D168C00710906 /* SceneDelegate.swift */; };
+		AE70C502244D168C00710906 /* NationalParks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE70C500244D168C00710906 /* NationalParks.xcdatamodeld */; };
+		AE70C504244D168C00710906 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C503244D168C00710906 /* ContentView.swift */; };
+		AE70C506244D168D00710906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE70C505244D168D00710906 /* Assets.xcassets */; };
+		AE70C509244D168D00710906 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE70C508244D168D00710906 /* Preview Assets.xcassets */; };
+		AE70C50C244D168D00710906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE70C50A244D168D00710906 /* LaunchScreen.storyboard */; };
+		AE70C516244D16CC00710906 /* InitialDatabaseContent.json in Resources */ = {isa = PBXBuildFile; fileRef = AE70C515244D16CC00710906 /* InitialDatabaseContent.json */; };
+		AE70C591244EBAD100710906 /* NationalParkApiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C590244EBAD100710906 /* NationalParkApiData.swift */; };
+		AE70C593244EBC2600710906 /* SearchedParkStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C592244EBC2600710906 /* SearchedParkStruct.swift */; };
+		AE70C595244EBC8F00710906 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C594244EBC8F00710906 /* UserData.swift */; };
+		AE70C597244EBD6800710906 /* ParkStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C596244EBD6800710906 /* ParkStruct.swift */; };
+		AE70C599244EBDBE00710906 /* CurrentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C598244EBDBE00710906 /* CurrentLocation.swift */; };
+		AE70C59B244EBE4300710906 /* ParkVisit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C59A244EBE4300710906 /* ParkVisit.swift */; };
+		AE70C59D244EBE9E00710906 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C59C244EBE9E00710906 /* Audio.swift */; };
+		AE70C59F244EBEEA00710906 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C59E244EBEEA00710906 /* Photo.swift */; };
+		AE70C5A1244EBF6B00710906 /* FoundPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5A0244EBF6B00710906 /* FoundPark.swift */; };
+		AE70C5A9244EC24000710906 /* SearchByName.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5A8244EC24000710906 /* SearchByName.swift */; };
+		AE70C5AB244EC2F700710906 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5AA244EC2F700710906 /* WebView.swift */; };
+		AE70C5AD244EC5BD00710906 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5AC244EC5BD00710906 /* MapView.swift */; };
+		AE70C5AF244ECB3400710906 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5AE244ECB3400710906 /* Home.swift */; };
+		AE70C5B1244ECBD400710906 /* ParksVisited.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5B0244ECBD400710906 /* ParksVisited.swift */; };
+		AE70C5B3244ECC3D00710906 /* ParkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5B2244ECC3D00710906 /* ParkItem.swift */; };
+		AE70C5B5244ECCD200710906 /* ParkDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5B4244ECCD200710906 /* ParkDetails.swift */; };
+		AE70C5B7244ECD4800710906 /* AddPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5B6244ECD4800710906 /* AddPark.swift */; };
+		AE70C5B9244ECF0200710906 /* LoadInitialContentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5B8244ECF0200710906 /* LoadInitialContentData.swift */; };
+		AE70C5BB244ECFC500710906 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5BA244ECFC500710906 /* AudioPlayer.swift */; };
+		AE70C5BD244ED04400710906 /* SpeechToTextData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5BC244ED04400710906 /* SpeechToTextData.swift */; };
+		AE70C5BF244ED10700710906 /* PhotoImageFromBinaryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5BE244ED10700710906 /* PhotoImageFromBinaryData.swift */; };
+		AE70C5C1244ED1C500710906 /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5C0244ED1C500710906 /* PhotoCaptureView.swift */; };
+		AE70C5C3244ED25D00710906 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5C2244ED25D00710906 /* ImagePicker.swift */; };
+		AE70C5D3244EE3FD00710906 /* AudioFiles in Resources */ = {isa = PBXBuildFile; fileRef = AE70C5D2244EE3FD00710906 /* AudioFiles */; };
+		AE70C5D5244EE42D00710906 /* NationalParkPhotos in Resources */ = {isa = PBXBuildFile; fileRef = AE70C5D4244EE42D00710906 /* NationalParkPhotos */; };
+		AE70C5D7244FB3E400710906 /* SearchByState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5D6244FB3E400710906 /* SearchByState.swift */; };
+		AE70C5D9244FB4FC00710906 /* SearchResultList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5D8244FB4FC00710906 /* SearchResultList.swift */; };
+		AE70C5DB244FB5B700710906 /* SearchResultPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5DA244FB5B700710906 /* SearchResultPark.swift */; };
+		AE70C5DD244FB65400710906 /* SearchResultDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5DC244FB65400710906 /* SearchResultDetails.swift */; };
+		AE70C5DF244FB6F600710906 /* ApiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5DE244FB6F600710906 /* ApiData.swift */; };
+		AE70C5E1244FB7C700710906 /* NationalPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5E0244FB7C700710906 /* NationalPark.swift */; };
+		AE70C5E3244FBCF300710906 /* ParkPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5E2244FBCF300710906 /* ParkPhoto.swift */; };
+		AE70C5E5244FBE6900710906 /* GetImageFromUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C5E4244FBE6900710906 /* GetImageFromUrl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE70C4F9244D168C00710906 /* NationalParks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NationalParks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE70C4FC244D168C00710906 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE70C4FE244D168C00710906 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE70C501244D168C00710906 /* NationalParks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NationalParks.xcdatamodel; sourceTree = "<group>"; };
+		AE70C503244D168C00710906 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE70C505244D168D00710906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE70C508244D168D00710906 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE70C50B244D168D00710906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE70C50D244D168D00710906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE70C515244D16CC00710906 /* InitialDatabaseContent.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = InitialDatabaseContent.json; sourceTree = "<group>"; };
+		AE70C590244EBAD100710906 /* NationalParkApiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalParkApiData.swift; sourceTree = "<group>"; };
+		AE70C592244EBC2600710906 /* SearchedParkStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedParkStruct.swift; sourceTree = "<group>"; };
+		AE70C594244EBC8F00710906 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		AE70C596244EBD6800710906 /* ParkStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkStruct.swift; sourceTree = "<group>"; };
+		AE70C598244EBDBE00710906 /* CurrentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocation.swift; sourceTree = "<group>"; };
+		AE70C59A244EBE4300710906 /* ParkVisit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkVisit.swift; sourceTree = "<group>"; };
+		AE70C59C244EBE9E00710906 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		AE70C59E244EBEEA00710906 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		AE70C5A0244EBF6B00710906 /* FoundPark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundPark.swift; sourceTree = "<group>"; };
+		AE70C5A8244EC24000710906 /* SearchByName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchByName.swift; sourceTree = "<group>"; };
+		AE70C5AA244EC2F700710906 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		AE70C5AC244EC5BD00710906 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		AE70C5AE244ECB3400710906 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AE70C5B0244ECBD400710906 /* ParksVisited.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksVisited.swift; sourceTree = "<group>"; };
+		AE70C5B2244ECC3D00710906 /* ParkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkItem.swift; sourceTree = "<group>"; };
+		AE70C5B4244ECCD200710906 /* ParkDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetails.swift; sourceTree = "<group>"; };
+		AE70C5B6244ECD4800710906 /* AddPark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPark.swift; sourceTree = "<group>"; };
+		AE70C5B8244ECF0200710906 /* LoadInitialContentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadInitialContentData.swift; sourceTree = "<group>"; };
+		AE70C5BA244ECFC500710906 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		AE70C5BC244ED04400710906 /* SpeechToTextData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechToTextData.swift; sourceTree = "<group>"; };
+		AE70C5BE244ED10700710906 /* PhotoImageFromBinaryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoImageFromBinaryData.swift; sourceTree = "<group>"; };
+		AE70C5C0244ED1C500710906 /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
+		AE70C5C2244ED25D00710906 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		AE70C5D2244EE3FD00710906 /* AudioFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AudioFiles; path = ../../../../../Downloads/NationalParks_files/AudioFiles; sourceTree = "<group>"; };
+		AE70C5D4244EE42D00710906 /* NationalParkPhotos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NationalParkPhotos; sourceTree = "<group>"; };
+		AE70C5D6244FB3E400710906 /* SearchByState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchByState.swift; sourceTree = "<group>"; };
+		AE70C5D8244FB4FC00710906 /* SearchResultList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultList.swift; sourceTree = "<group>"; };
+		AE70C5DA244FB5B700710906 /* SearchResultPark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultPark.swift; sourceTree = "<group>"; };
+		AE70C5DC244FB65400710906 /* SearchResultDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultDetails.swift; sourceTree = "<group>"; };
+		AE70C5DE244FB6F600710906 /* ApiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiData.swift; sourceTree = "<group>"; };
+		AE70C5E0244FB7C700710906 /* NationalPark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalPark.swift; sourceTree = "<group>"; };
+		AE70C5E2244FBCF300710906 /* ParkPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkPhoto.swift; sourceTree = "<group>"; };
+		AE70C5E4244FBE6900710906 /* GetImageFromUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetImageFromUrl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE70C4F6244D168C00710906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE70C4F0244D168C00710906 = {
+			isa = PBXGroup;
+			children = (
+				AE70C4FB244D168C00710906 /* NationalParks */,
+				AE70C4FA244D168C00710906 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE70C4FA244D168C00710906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE70C4F9244D168C00710906 /* NationalParks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE70C4FB244D168C00710906 /* NationalParks */ = {
+			isa = PBXGroup;
+			children = (
+				AE70C500244D168C00710906 /* NationalParks.xcdatamodeld */,
+				AE70C530244D30CF00710906 /* Photo Data */,
+				AE70C52D244D309600710906 /* Audio Data */,
+				AE70C51E244D2CBA00710906 /* Populate Database */,
+				AE70C51D244D2BCA00710906 /* Core Data Model */,
+				AE70C51C244D2B9900710906 /* Data Model */,
+				AE70C518244D299B00710906 /* Tab Views */,
+				AE70C517244D1BD300710906 /* Delegates */,
+				AE70C503244D168C00710906 /* ContentView.swift */,
+				AE70C5D4244EE42D00710906 /* NationalParkPhotos */,
+				AE70C5D2244EE3FD00710906 /* AudioFiles */,
+				AE70C505244D168D00710906 /* Assets.xcassets */,
+				AE70C50A244D168D00710906 /* LaunchScreen.storyboard */,
+				AE70C50D244D168D00710906 /* Info.plist */,
+				AE70C507244D168D00710906 /* Preview Content */,
+			);
+			path = NationalParks;
+			sourceTree = "<group>";
+		};
+		AE70C507244D168D00710906 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE70C508244D168D00710906 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE70C517244D1BD300710906 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				AE70C4FC244D168C00710906 /* AppDelegate.swift */,
+				AE70C4FE244D168C00710906 /* SceneDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		AE70C518244D299B00710906 /* Tab Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE70C5A0244EBF6B00710906 /* FoundPark.swift */,
+				AE70C5AA244EC2F700710906 /* WebView.swift */,
+				AE70C5AC244EC5BD00710906 /* MapView.swift */,
+				AE70C551244D49DE00710906 /* Search By State */,
+				AE70C54C244D483F00710906 /* Search By Name */,
+				AE70C545244D355E00710906 /* Parks Visited */,
+				AE70C519244D29A900710906 /* Home */,
+			);
+			name = "Tab Views";
+			sourceTree = "<group>";
+		};
+		AE70C519244D29A900710906 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AE70C5AE244ECB3400710906 /* Home.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		AE70C51C244D2B9900710906 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE70C590244EBAD100710906 /* NationalParkApiData.swift */,
+				AE70C592244EBC2600710906 /* SearchedParkStruct.swift */,
+				AE70C594244EBC8F00710906 /* UserData.swift */,
+				AE70C596244EBD6800710906 /* ParkStruct.swift */,
+				AE70C598244EBDBE00710906 /* CurrentLocation.swift */,
+				AE70C5DE244FB6F600710906 /* ApiData.swift */,
+				AE70C5E0244FB7C700710906 /* NationalPark.swift */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		AE70C51D244D2BCA00710906 /* Core Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE70C59A244EBE4300710906 /* ParkVisit.swift */,
+				AE70C59C244EBE9E00710906 /* Audio.swift */,
+				AE70C59E244EBEEA00710906 /* Photo.swift */,
+			);
+			name = "Core Data Model";
+			sourceTree = "<group>";
+		};
+		AE70C51E244D2CBA00710906 /* Populate Database */ = {
+			isa = PBXGroup;
+			children = (
+				AE70C515244D16CC00710906 /* InitialDatabaseContent.json */,
+				AE70C5B8244ECF0200710906 /* LoadInitialContentData.swift */,
+			);
+			name = "Populate Database";
+			sourceTree = "<group>";
+		};
+		AE70C52D244D309600710906 /* Audio Data */ = {
+			isa = PBXGroup;
+			children = (
+				AE70C5BA244ECFC500710906 /* AudioPlayer.swift */,
+				AE70C5BC244ED04400710906 /* SpeechToTextData.swift */,
+			);
+			name = "Audio Data";
+			sourceTree = "<group>";
+		};
+		AE70C530244D30CF00710906 /* Photo Data */ = {
+			isa = PBXGroup;
+			children = (
+				AE70C5BE244ED10700710906 /* PhotoImageFromBinaryData.swift */,
+				AE70C5C0244ED1C500710906 /* PhotoCaptureView.swift */,
+				AE70C5C2244ED25D00710906 /* ImagePicker.swift */,
+				AE70C5E2244FBCF300710906 /* ParkPhoto.swift */,
+				AE70C5E4244FBE6900710906 /* GetImageFromUrl.swift */,
+			);
+			name = "Photo Data";
+			sourceTree = "<group>";
+		};
+		AE70C545244D355E00710906 /* Parks Visited */ = {
+			isa = PBXGroup;
+			children = (
+				AE70C5B0244ECBD400710906 /* ParksVisited.swift */,
+				AE70C5B2244ECC3D00710906 /* ParkItem.swift */,
+				AE70C5B4244ECCD200710906 /* ParkDetails.swift */,
+				AE70C5B6244ECD4800710906 /* AddPark.swift */,
+			);
+			name = "Parks Visited";
+			sourceTree = "<group>";
+		};
+		AE70C54C244D483F00710906 /* Search By Name */ = {
+			isa = PBXGroup;
+			children = (
+				AE70C5A8244EC24000710906 /* SearchByName.swift */,
+			);
+			name = "Search By Name";
+			sourceTree = "<group>";
+		};
+		AE70C551244D49DE00710906 /* Search By State */ = {
+			isa = PBXGroup;
+			children = (
+				AE70C5D6244FB3E400710906 /* SearchByState.swift */,
+				AE70C5D8244FB4FC00710906 /* SearchResultList.swift */,
+				AE70C5DA244FB5B700710906 /* SearchResultPark.swift */,
+				AE70C5DC244FB65400710906 /* SearchResultDetails.swift */,
+			);
+			name = "Search By State";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE70C4F8244D168C00710906 /* NationalParks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE70C510244D168D00710906 /* Build configuration list for PBXNativeTarget "NationalParks" */;
+			buildPhases = (
+				AE70C4F5244D168C00710906 /* Sources */,
+				AE70C4F6244D168C00710906 /* Frameworks */,
+				AE70C4F7244D168C00710906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NationalParks;
+			productName = NationalParks;
+			productReference = AE70C4F9244D168C00710906 /* NationalParks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE70C4F1244D168C00710906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Ayush Dixit";
+				TargetAttributes = {
+					AE70C4F8244D168C00710906 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AE70C4F4244D168C00710906 /* Build configuration list for PBXProject "NationalParks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE70C4F0244D168C00710906;
+			productRefGroup = AE70C4FA244D168C00710906 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE70C4F8244D168C00710906 /* NationalParks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE70C4F7244D168C00710906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE70C516244D16CC00710906 /* InitialDatabaseContent.json in Resources */,
+				AE70C50C244D168D00710906 /* LaunchScreen.storyboard in Resources */,
+				AE70C509244D168D00710906 /* Preview Assets.xcassets in Resources */,
+				AE70C5D3244EE3FD00710906 /* AudioFiles in Resources */,
+				AE70C506244D168D00710906 /* Assets.xcassets in Resources */,
+				AE70C5D5244EE42D00710906 /* NationalParkPhotos in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE70C4F5244D168C00710906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE70C59F244EBEEA00710906 /* Photo.swift in Sources */,
+				AE70C4FD244D168C00710906 /* AppDelegate.swift in Sources */,
+				AE70C5D9244FB4FC00710906 /* SearchResultList.swift in Sources */,
+				AE70C5B5244ECCD200710906 /* ParkDetails.swift in Sources */,
+				AE70C5B9244ECF0200710906 /* LoadInitialContentData.swift in Sources */,
+				AE70C5AF244ECB3400710906 /* Home.swift in Sources */,
+				AE70C5DF244FB6F600710906 /* ApiData.swift in Sources */,
+				AE70C593244EBC2600710906 /* SearchedParkStruct.swift in Sources */,
+				AE70C59D244EBE9E00710906 /* Audio.swift in Sources */,
+				AE70C595244EBC8F00710906 /* UserData.swift in Sources */,
+				AE70C5B7244ECD4800710906 /* AddPark.swift in Sources */,
+				AE70C59B244EBE4300710906 /* ParkVisit.swift in Sources */,
+				AE70C599244EBDBE00710906 /* CurrentLocation.swift in Sources */,
+				AE70C5BB244ECFC500710906 /* AudioPlayer.swift in Sources */,
+				AE70C4FF244D168C00710906 /* SceneDelegate.swift in Sources */,
+				AE70C591244EBAD100710906 /* NationalParkApiData.swift in Sources */,
+				AE70C5DD244FB65400710906 /* SearchResultDetails.swift in Sources */,
+				AE70C5B3244ECC3D00710906 /* ParkItem.swift in Sources */,
+				AE70C5DB244FB5B700710906 /* SearchResultPark.swift in Sources */,
+				AE70C504244D168C00710906 /* ContentView.swift in Sources */,
+				AE70C597244EBD6800710906 /* ParkStruct.swift in Sources */,
+				AE70C5A1244EBF6B00710906 /* FoundPark.swift in Sources */,
+				AE70C5D7244FB3E400710906 /* SearchByState.swift in Sources */,
+				AE70C5E5244FBE6900710906 /* GetImageFromUrl.swift in Sources */,
+				AE70C5BD244ED04400710906 /* SpeechToTextData.swift in Sources */,
+				AE70C5AD244EC5BD00710906 /* MapView.swift in Sources */,
+				AE70C5AB244EC2F700710906 /* WebView.swift in Sources */,
+				AE70C5E1244FB7C700710906 /* NationalPark.swift in Sources */,
+				AE70C5A9244EC24000710906 /* SearchByName.swift in Sources */,
+				AE70C5BF244ED10700710906 /* PhotoImageFromBinaryData.swift in Sources */,
+				AE70C5C1244ED1C500710906 /* PhotoCaptureView.swift in Sources */,
+				AE70C5C3244ED25D00710906 /* ImagePicker.swift in Sources */,
+				AE70C5B1244ECBD400710906 /* ParksVisited.swift in Sources */,
+				AE70C5E3244FBCF300710906 /* ParkPhoto.swift in Sources */,
+				AE70C502244D168C00710906 /* NationalParks.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE70C50A244D168D00710906 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE70C50B244D168D00710906 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE70C50E244D168D00710906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE70C50F244D168D00710906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE70C511244D168D00710906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NationalParks/Preview Content\"";
+				DEVELOPMENT_TEAM = 9B3W8XR6B2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NationalParks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayushdixit.NationalParks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE70C512244D168D00710906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NationalParks/Preview Content\"";
+				DEVELOPMENT_TEAM = 9B3W8XR6B2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NationalParks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayushdixit.NationalParks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE70C4F4244D168C00710906 /* Build configuration list for PBXProject "NationalParks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE70C50E244D168D00710906 /* Debug */,
+				AE70C50F244D168D00710906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE70C510244D168D00710906 /* Build configuration list for PBXNativeTarget "NationalParks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE70C511244D168D00710906 /* Debug */,
+				AE70C512244D168D00710906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AE70C500244D168C00710906 /* NationalParks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE70C501244D168C00710906 /* NationalParks.xcdatamodel */,
+			);
+			currentVersion = AE70C501244D168C00710906 /* NationalParks.xcdatamodel */;
+			path = NationalParks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AE70C4F1244D168C00710906 /* Project object */;
+}

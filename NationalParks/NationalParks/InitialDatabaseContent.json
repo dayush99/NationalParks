@@ -1,0 +1,134 @@
+[
+    {
+        "photoAndAudioFilename": "Acadia",
+        "fullName": "Acadia National Park",
+        "states": "Maine",
+        "dateVisited": "2019-07-24",
+        "photoDateTime": "2019-07-24 at 14:35:12",
+        "photoLatitude": 44.338554,
+        "photoLongitude": -68.273338,
+        "speechToTextNotes": "Acadia National Park is like no other place on Earth, people will tell you. From its mountaintops of rosy granite to its cobblestone beaches, everywhere you turn, you find beauty.",
+        "rating": "Excellent"
+    },
+    {
+        "photoAndAudioFilename": "BryceCanyon",
+        "fullName": "Bryce Canyon National Park",
+        "states": "Utah",
+        "dateVisited": "2018-01-10",
+        "photoDateTime": "2018-01-10 at 10:14:27",
+        "photoLatitude": 37.627361,
+        "photoLongitude": -112.185257,
+        "speechToTextNotes": "Absolutely gorgeous even in the winter months with snow.",
+        "rating": "Outstanding"
+    },
+    {
+        "photoAndAudioFilename": "Glacier",
+        "fullName": "Glacier National Park",
+        "states": "Montana",
+        "dateVisited": "2020-01-18",
+        "photoDateTime": "2020-01-18 at 16:12:45",
+        "photoLatitude": 48.502281,
+        "photoLongitude": -113.988533,
+        "speechToTextNotes": "You want to have Glacier National Park on your bucket list.",
+        "rating": "Very Good"
+    },
+    {
+        "photoAndAudioFilename": "GrandCanyon",
+        "fullName": "Grand Canyon National Park",
+        "states": "Arizona",
+        "dateVisited": "2019-06-08",
+        "photoDateTime": "2019-06-08 at 11:22:34",
+        "photoLatitude": 35.965000,
+        "photoLongitude": -111.973793,
+        "speechToTextNotes": "The Grand Canyon is truly beyond words... No description, no photograph, no painting, nothing can do it justice. You have to see it to believe it, and even when you are there your mind and your eyes just can't take it all in.",
+        "rating": "Outstanding"
+    },
+    {
+        "photoAndAudioFilename": "GrandTeton",
+        "fullName": "Grand Teton National Park",
+        "states": "Wyoming",
+        "dateVisited": "2017-08-15",
+        "photoDateTime": "2017-08-15 at 13:25:42",
+        "photoLatitude": 43.802460,
+        "photoLongitude": -110.483078,
+        "speechToTextNotes": "Grand Teton is famous for spectacular mountain scenery and wildlife.",
+        "rating": "Excellent"
+    },
+    {
+        "photoAndAudioFilename": "GreatSmokyMountains",
+        "fullName": "Great Smoky Mountains National Park",
+        "states": "North Carolina and Tennessee",
+        "dateVisited": "2016-09-24",
+        "photoDateTime": "2016-09-24 at 15:21:36",
+        "photoLatitude": 35.763489,
+        "photoLongitude": -83.299927,
+        "speechToTextNotes": "The trip to Smokey mountains was a pleasant surprise. The environment is in pristine condition. The park hosts a number of historical homes preserved in its original state.",
+        "rating": "Satisfactory"
+    },
+    {
+        "photoAndAudioFilename": "Olympic",
+        "fullName": "Olympic National Park",
+        "states": "Washington",
+        "dateVisited": "2018-06-20",
+        "photoDateTime": "2018-06-20 at 14:06:27",
+        "photoLatitude": 48.242321,
+        "photoLongitude": -124.525742,
+        "speechToTextNotes": "There are two rainforests at Olympic National Park and the Hoh Rainforest is the most popular between the two.",
+        "rating": "Good"
+    },
+    {
+        "photoAndAudioFilename": "RockyMountain",
+        "fullName": "Rocky Mountain National Park",
+        "states": "Colorado",
+        "dateVisited": "2018-12-14",
+        "photoDateTime": "2018-12-14 at 17:45:08",
+        "photoLatitude": 40.187141,
+        "photoLongitude": -105.867958,
+        "speechToTextNotes": "Challenge yourself physically and experience the wonders of nature at this park.",
+        "rating": "Excellent"
+    },
+    {
+        "photoAndAudioFilename": "Shenandoah",
+        "fullName": "Shenandoah National Park",
+        "states": "Virginia",
+        "dateVisited": "2019-05-21",
+        "photoDateTime": "2019-05-21 at 13:51:32",
+        "photoLatitude": 38.249699,
+        "photoLongitude": -78.669342,
+        "speechToTextNotes": "Shenandoah has ample opportunities to see wildlife as well as hiking, picnicking, camping and so much more!",
+        "rating": "Very Good"
+    },
+    {
+        "photoAndAudioFilename": "Yellowstone",
+        "fullName": "Yellowstone National Park",
+        "states": "Idaho, Montana, and Wyoming",
+        "dateVisited": "2018-07-24",
+        "photoDateTime": "2018-07-24 at 15:04:16",
+        "photoLatitude": 44.427963,
+        "photoLongitude": -110.588455,
+        "speechToTextNotes": "Definitely a must see and amazing colors from the geothermal pools and bacterial mats. Totally impressed with mother nature.",
+        "rating": "Outstanding"
+    },
+    {
+        "photoAndAudioFilename": "Yosemite",
+        "fullName": "Yosemite National Park",
+        "states": "California",
+        "dateVisited": "2019-04-14",
+        "photoDateTime": "2019-04-14 at 17:15:22",
+        "photoLatitude": 37.865101,
+        "photoLongitude": -119.538330,
+        "speechToTextNotes": "Yosemite is one of the most beautiful places on Earth.",
+        "rating": "Great"
+    },
+    {
+        "photoAndAudioFilename": "Zion",
+        "fullName": "Zion National Park",
+        "states": "Utah",
+        "dateVisited": "2018-11-06",
+        "photoDateTime": "2018-11-06 at 11:15:32",
+        "photoLatitude": 37.298203,
+        "photoLongitude": -113.026299,
+        "speechToTextNotes": "Zion National Park truly is an awe-inspiring place.",
+        "rating": "Excellent"
+    }
+]
